@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3B4D50;
+    font-family: monospace;
+}
+
+main {
+    background-color: #E37869;
+    max-width: 60%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    gap: 20px;
+    margin: 20px;
+}
+
+#cep {
+    border: none;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #FAD1A7;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 150px;
+}
+
+p {
+    font-size: 16px;
+}
